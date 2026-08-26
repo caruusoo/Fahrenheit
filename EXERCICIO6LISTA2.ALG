@@ -19,8 +19,12 @@ se (op=1) entao
                 se (op=3) entao
                    escreva(n1, " *", n2, " =", n1*n2)
                    senao
-                          se (op=4) entao
+                          se ((op=4) e (n2<>0)) entao
                              escreva(n1, " /", n2, " =", n1/n2)
+                             senao
+                             se ((op=4) e (n2=0)) entao
+                                escreva("ERRO")
+           fimse
            fimse
 
         fimse
