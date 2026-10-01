@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 10/09/2026
 Var
@@ -11,14 +11,14 @@ Inicio
 escreva("Digite a quantidade de valores: ")
 leia(n)
 
-escreva("Digite o 1º valor: ")
+escreva("Digite o 1Âº valor: ")
 leia(valor)
 
 maior <- valor
 menor <- valor
 
 para i de 2 ate n faca
-escreva("Digite o", i, "º valor: ")
+escreva("Digite o", i, "Âº valor: ")
 leia(valor)
 se valor > maior entao
 maior <- valor
