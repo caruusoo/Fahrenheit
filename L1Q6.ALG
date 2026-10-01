@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/08/2026
 Var
@@ -10,12 +10,12 @@ b, n, v, t: real
 Inicio
 escreva("Numero de votos em branco: ")
 leia(b)
-escreva("Número de votos nulo: ")
+escreva("NÃºmero de votos nulo: ")
 leia(n)
-escreva("Número de votos válidos: ")
+escreva("NÃºmero de votos vÃ¡lidos: ")
 leia(v)
 t <- b+n+v
-escreval("Votos Válidos: ", (v*100)/t)
+escreval("Votos VÃ¡lidos: ", (v*100)/t)
 escreval("Votos nulos: ", (n*100)/t)
 escreva("Votos em branco: ", (b*100)/t)
 
