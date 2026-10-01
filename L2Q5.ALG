@@ -13,7 +13,7 @@ leia(n4)
 leia(n5)
 
 media <- (n1+n2+n3+n4+n5)/5
-escreval("Média: ",media)
+escreval("MÃ©dia: ",media)
 se (n1>media) entao
    escreva(n1)
 fimse
