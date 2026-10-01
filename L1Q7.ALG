@@ -1,20 +1,20 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o] 
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/08/2026
 Var
 sal: real
 
 Inicio
-escreva("Sal·rio bruto mensal: ")
+escreva("Sal√°rio bruto mensal: ")
 leia(sal)
-escreval("Sal·rio bruto: R$ ", sal)
+escreval("Sal√°rio bruto: R$ ", sal)
 escreval("(-)IR (15%): R$ ", (sal*(15/100)))
 escreval("(-)INSS (11%): R$ ", (sal*(11/100)))
 escreval("(-)Sindicato (3%): R$ ", (sal*(3/100)))
-escreva("Sal·rio liquido: R$ ", sal-(sal*(29/100)))
+escreva("Sal√°rio liquido: R$ ", sal-(sal*(29/100)))
 
 
 Fimalgoritmo
