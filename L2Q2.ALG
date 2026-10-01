@@ -1,7 +1,7 @@
 Algoritmo "exercicio2Lista2"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 20/08/2026
 Var
@@ -14,13 +14,13 @@ leia(h)
 escreva("Seu genero [1]Homem [2]Mulher: ")
 leia(gen)
 se gen = 1 entao
-   escreva("Seu peso ideal é de", ((72.7*(h/100))-58), "kg!")
+   escreva("Seu peso ideal Ã© de", ((72.7*(h/100))-58), "kg!")
 fimse
 se gen = 2 entao
-   escreva("Seu peso ideal é de", ((62.1*(h/100))-44.7), "kg!")
+   escreva("Seu peso ideal Ã© de", ((62.1*(h/100))-44.7), "kg!")
 fimse
 se (gen<>1) e (gen<>2) entao
-   escreva("Gênero inválido!")
+   escreva("GÃªnero invÃ¡lido!")
 fimse
 
 Fimalgoritmo
