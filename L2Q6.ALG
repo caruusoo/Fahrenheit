@@ -5,10 +5,10 @@ n1, n2, op: real
 
 
 Inicio
-escreval("Digite 2 números: ")
+escreval("Digite 2 nÃºmeros: ")
 leia(n1)
 leia(n2)
-escreval("[1]-Adição | [2]-Subtração | [3]-Multiplicação | [4]-Divisão")
+escreval("[1]-AdiÃ§Ã£o | [2]-SubtraÃ§Ã£o | [3]-MultiplicaÃ§Ã£o | [4]-DivisÃ£o")
 leia(op)
 se (op=1) entao
    escreva(n1, " +", n2, " =", n1+n2)
