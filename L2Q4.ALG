@@ -1,7 +1,7 @@
 Algoritmo "exercicio4Lista2"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 20/08/2026
 Var
@@ -18,14 +18,14 @@ escreva("Quarta nota do aluno: ")
 leia(n4)
 m <- ((n1+n2+n3+n4)/4)
 se m>=7 entao
-   escreva("O aluno passou, média:", m)
+   escreva("O aluno passou, mÃ©dia:", m)
    senao
    escreva("Nota do exame: ")
    leia(ex)
    se ((m+ex)/2)>=5 entao
-      escreva("O aluno passou, média final:", (m+ex)/2)
+      escreva("O aluno passou, mÃ©dia final:", (m+ex)/2)
    senao
-        escreva("O aluno reprovou, média final:", (m+ex)/2)
+        escreva("O aluno reprovou, mÃ©dia final:", (m+ex)/2)
    fimse
 fimse
 Fimalgoritmo
