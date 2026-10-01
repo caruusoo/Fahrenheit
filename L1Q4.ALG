@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 06/08/2026
 Var
@@ -10,7 +10,7 @@ vi, a, t: real
 Inicio
 escreva("Velocidade inicial em m/s: ")
 leia(vi)
-escreva("Aceleração em m/s: ")
+escreva("AceleraÃ§Ã£o em m/s: ")
 leia(a)
 escreva("Tempo em segundos: ")
 leia(t)
