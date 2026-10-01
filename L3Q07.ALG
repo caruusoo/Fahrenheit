@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor    : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 01/10/2026
 Var
@@ -13,16 +13,16 @@ fsum: real
 
 Inicio
 i <- 1
-escreva("Escreva quantos números estão na sequência: ")
+escreva("Escreva quantos nÃºmeros estÃ£o na sequÃªncia: ")
 leia(n)
 enquanto i<=n faca
-escreva(i,"º valor: ")
+escreva(i,"Âº valor: ")
 leia(v)
 sum <- sum + v
 fsum <- fsum + (1/v)
 i <- i+1
 fimenquanto
 escreval("")
-escreval("Média aritimética: ", sum/n)
-escreval("Média harmônica: ", n/fsum)
+escreval("MÃ©dia aritimÃ©tica: ", sum/n)
+escreval("MÃ©dia harmÃ´nica: ", n/fsum)
 Fimalgoritmo
